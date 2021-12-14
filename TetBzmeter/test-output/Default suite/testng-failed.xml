@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestP.TestCasesClass">
+        <methods>
+          <include name="positiveBooking"/>
+          <include name="beforeMehtodClass"/>
+          <include name="close"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="negativeTwo"/>
+          <include name="beforeClass"/>
+          <include name="negativeOne"/>
+        </methods>
+      </class> <!-- TestP.TestCasesClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
